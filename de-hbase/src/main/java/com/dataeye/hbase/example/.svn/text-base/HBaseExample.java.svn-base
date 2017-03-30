@@ -1,0 +1,25 @@
+package com.dataeye.dedp.hbase.example;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import com.dataeye.dedp.hbase.handle.HBaseHandler;
+
+public class HBaseExample {
+
+	public static void main(String[] args) {
+		List<String> columnList = new ArrayList<String>();
+		columnList.add("info");
+		String tableName = "dedptable";
+		
+//		HBaseHandle.createTable(tableName, columnList);
+		
+		Map<byte[], byte[]> qualifierValueMap = new HashMap<byte[], byte[]>();
+		qualifierValueMap.put("f1".getBytes(), "123".getBytes());
+		qualifierValueMap.put("f2".getBytes(), "456".getBytes());
+		
+		HBaseHandler.addRecord(tableName, "1", "info", qualifierValueMap);
+	}
+}
