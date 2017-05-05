@@ -66,6 +66,13 @@
         <processorPath useClasspath="true" />
         <module name="de-mysql" />
       </profile>
+      <profile default="false" name="Annotation profile for de-protobuf" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="de-protobuf" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="de-framework" target="1.8" />
@@ -73,6 +80,7 @@
       <module name="de-kafka" target="1.8" />
       <module name="de-kylin" target="1.8" />
       <module name="de-mysql" target="1.8" />
+      <module name="de-protobuf" target="1.8" />
       <module name="de-redis" target="1.8" />
       <module name="de-rpc" target="1.8" />
       <module name="de-zookeeper" target="1.8" />

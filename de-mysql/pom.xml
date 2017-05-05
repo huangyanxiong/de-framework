@@ -17,6 +17,16 @@
             <artifactId>jdbi</artifactId>
             <version>2.73</version>
         </dependency>
+        <dependency>
+            <groupId>com.dataeye</groupId>
+            <artifactId>de-zookeeper</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mchange</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>0.9.2.1</version>
+        </dependency>
     </dependencies>
 
     <build>

@@ -67,6 +67,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>com.dataeye</groupId>
+            <artifactId>de-zookeeper</artifactId>
+            <version>1.0.0</version>
+        </dependency>
 
     </dependencies>
 

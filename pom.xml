@@ -16,6 +16,7 @@
         <module>de-zookeeper</module>
         <module>de-rpc</module>
         <module>de-mysql</module>
+        <module>de-protobuf</module>
     </modules>
 
     <properties>

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/de-kafka/de-kafka.iml" filepath="$PROJECT_DIR$/de-kafka/de-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/de-kylin/de-kylin.iml" filepath="$PROJECT_DIR$/de-kylin/de-kylin.iml" />
       <module fileurl="file://$PROJECT_DIR$/de-mysql/de-mysql.iml" filepath="$PROJECT_DIR$/de-mysql/de-mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/de-protobuf/de-protobuf.iml" filepath="$PROJECT_DIR$/de-protobuf/de-protobuf.iml" />
       <module fileurl="file://$PROJECT_DIR$/de-redis/de-redis.iml" filepath="$PROJECT_DIR$/de-redis/de-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/de-rpc/de-rpc.iml" filepath="$PROJECT_DIR$/de-rpc/de-rpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/de-zookeeper/de-zookeeper.iml" filepath="$PROJECT_DIR$/de-zookeeper/de-zookeeper.iml" />
